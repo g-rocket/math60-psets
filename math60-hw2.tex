@@ -62,6 +62,24 @@
 			f(x,y) &= x^2y + y^3 \\
 			g(x,y) &= \frac{x}{y}
 		\end{align*}
+		\fbox{\begin{minipage}{\linewidth}
+			PROPOSITION 4.2:
+			
+			Let $f, g: X \subseteq \mathbb{R}^n \to \mathbb{R}$ be differentiable 
+			at $\mathbf{a} \in X$. Then
+			\begin{enumerate}[1.]
+				\item The product function $f g$ is also differentiable at $\mathbf{a}$, and
+					\[
+						D(fg)(\mathbf{a}) = g(\mathbf{a})Df(\mathbf{a})+ f(\mathbf{a})Dg(\mathbf{a}).
+					\]
+				\item If $g(a) \ne 0$, then the quotient function $\frac{f}{g}$ is differentiable
+					at $\mathbf{a}$, and
+					\[
+						D\left(\frac{f}{g}\right)(\mathbf{a})
+							= \frac{g(\mathbf{a})Df(\mathbf{a}) - f(\mathbf{a})Dg(\mathbf{a})}{g(\mathbf{a})^2}
+					\]
+			\end{enumerate}
+		\end{minipage}}
 	\end{problem}
 	\begin{solution}
 		
